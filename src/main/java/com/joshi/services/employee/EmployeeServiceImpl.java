@@ -121,7 +121,7 @@ public class EmployeeServiceImpl implements EmployeeService{
 				.collect(Collectors.toList());
 	}
 
-
+/*
 @Override
 public Map<String, Long> getTaskCountByPriorityForEmployee() {
     User user = jwtUtil.getLoggedInUser();
@@ -143,5 +143,5 @@ public Map<String, Long> getTaskCountByStatusForEmployee() {
     }
     throw new EntityNotFoundException("User not found");
 }
-	
+	*/
 }

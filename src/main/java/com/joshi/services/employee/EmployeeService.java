@@ -17,8 +17,8 @@ public interface EmployeeService {
     
    List<CommentDTO> getCommentsByTaskId(Long taskId);
 
-Map<String, Long> getTaskCountByPriorityForEmployee();
+//Map<String, Long> getTaskCountByPriorityForEmployee();
 
-Map<String, Long> getTaskCountByStatusForEmployee();
+//Map<String, Long> getTaskCountByStatusForEmployee();
 
 }

@@ -16,12 +16,12 @@ public interface TaskRepositries extends JpaRepository<Task, Long>{
 
 	List<Task>  findAllByUserId(Long id);
 
-	Map<String, Long> countTasksByPriority();
+	//Map<String, Long> countTasksByPriority();
 
-	Map<String, Long> countTasksByStatus();
+	//Map<String, Long> countTasksByStatus();
 
-	Map<String, Long> countTasksByPriorityForUser(Long id);
+	//Map<String, Long> countTasksByPriorityForUser(Long id);
 
-	Map<String, Long> countTasksByStatusForUser(Long id);
+	//Map<String, Long> countTasksByStatusForUser(Long id);
 
 }

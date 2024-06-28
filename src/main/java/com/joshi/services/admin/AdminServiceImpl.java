@@ -253,7 +253,7 @@ public class AdminServiceImpl implements AdminService{
 	
     
     
-    
+  /*  
     @Override
     public Map<String, Long> getTaskCountByPriorityForAdmin() {
         // Retrieve task counts by priority
@@ -266,5 +266,5 @@ public class AdminServiceImpl implements AdminService{
         // Retrieve task counts by status
         Map<String, Long> taskCountByStatus = taskRepositries.countTasksByStatus();
         return taskCountByStatus;
-    }
+    }*/
 }

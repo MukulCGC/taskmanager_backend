@@ -30,6 +30,6 @@ public interface AdminService {
     
    List<CommentDTO> getCommentsByTaskId(Long taskId);
    	//void scheduleTaskReminder();
-   	Map<String, Long> getTaskCountByPriorityForAdmin();
-   	Map<String, Long> getTaskCountByStatusForAdmin();
+   	//Map<String, Long> getTaskCountByPriorityForAdmin();
+  // 	Map<String, Long> getTaskCountByStatusForAdmin();
 }

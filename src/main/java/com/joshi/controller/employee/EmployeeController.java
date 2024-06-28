@@ -69,6 +69,8 @@ public class EmployeeController {
 	}
 	
 	
+	/*
+	
 	 @GetMapping("/charts/priority")
 	    public ResponseEntity<Map<String, Long>> getTaskCountByPriorityForEmployee() {
 	        Map<String, Long> taskCountByPriority = employeeService.getTaskCountByPriorityForEmployee();
@@ -81,7 +83,7 @@ public class EmployeeController {
 	        return ResponseEntity.ok(taskCountByStatus);
 	    }
 
-	   
+	   */
 	
 	
 }
